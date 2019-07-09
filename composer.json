@@ -1,0 +1,26 @@
+{
+  "name": "cybeanz/laravel-blade",
+  "description": "Laravel blade directives",
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "mjunaidck",
+      "email": "mjunaidck@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Cybeanz\\LaravelBlade\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Cybeanz\\LaravelBlade\\LaravelBladeServiceProvider"
+      ]
+    }
+  }
+}
